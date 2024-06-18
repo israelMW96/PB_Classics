@@ -1,0 +1,275 @@
+/* ----------------------- CSS DO HEADER -------------------- */
+header {
+  background: black;
+  padding: 20px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 10px 0;
+  margin: auto;
+}
+
+ul li {
+  display: inline;
+  flex: 1;
+  text-align: center;
+}
+
+.submenu {
+  position: relative;
+}
+
+.cabecalho .menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Dosis;
+  font-size: 15px;
+  color: #daa520;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 23%;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #daa520;
+  padding: 10px;
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.submenu-content li {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.submenu-content li a{
+  color: #daa520;
+  text-decoration: none;
+  font-family: Dosis;
+}
+/* ----------------------- FIM CSS DO HEADER -------------------- */
+ 
+.boas-vindas {
+overflow: hidden;
+background:black;
+border-bottom: 1px solid #daa520;
+}
+
+.boas-vindas img {
+  float: left;
+  width: 632px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.boas-vindas h1 {
+  font-size: 50px;
+  font-family: Lobster;
+  color: #daa520;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.boas-vindas h2 {
+  font-family: Lobster;
+  font-size: 30px;
+  padding: 0 30px;
+  padding-top: 30px;
+  text-align: center;
+  line-height: 1.5;
+  color: #daa520;
+}
+
+.conteiner {
+  overflow: hidden;
+  height: auto;
+}
+
+.conteiner img {
+  float: right;
+  width: 632px;
+  height: 410px;
+  padding-left: 20px;
+}
+
+.missao {
+  width: 100%;
+  background: black;
+  padding: 10px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.missao h1{
+  font-size: 30px;
+  font-family: Lobster;
+  color: #daa520;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.missao h2 {
+  font-size: 19px;
+  font-family: Dosis;
+  line-height: 1.5;
+  text-align: center;
+  color: #daa520;
+  padding: 0 20px;
+}
+
+.oferta {
+  width: 100%;
+  background: black;
+  padding: 10px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.oferta h1 {
+  font-size: 30px;
+  font-family: Lobster;
+  color: #daa520;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.oferta h2 {
+  font-size: 19px;
+  font-family: Dosis;
+  line-height: 1.5;
+  text-align: center;
+  color: #daa520;
+  padding: 0 20px;
+}
+
+.equipe {
+  width: 100%;
+  background: black;
+  padding: 10px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.equipe h1 {
+  font-size: 30px;
+  font-family: Lobster;
+  color: #daa520;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.equipe h2 {
+  font-size: 19px;
+  font-family: Dosis;
+  line-height: 1.5;
+  text-align: center;
+  color: #daa520;
+  padding: 0 20px;
+}
+
+.localização {
+  overflow: hidden;
+  background: black;
+}
+
+.localização .titulo-principal {
+  font-family: Lobster;
+  font-size: 35px;
+  color: #daa520;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.localização-mapa {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-top: 1px solid #daa520;
+}
+
+.localização-mapa iframe {
+  float: right;
+}
+
+.localização-mapa .paragrafos {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.localização-mapa .paragrafos p {
+  font-size: 20px;
+  font-family: Dosis;
+  color: #daa520;
+  padding: 20px 0;
+}
+
+.atendimento {
+  display: flex;
+  background: black;
+  color: white;
+  border-top: 1px solid #daa520;
+}
+
+.atendimento div {
+  flex: 1;
+  padding: 20px;
+}
+
+.atendimento h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Dosis;
+  color: #daa520;
+}
+
+.atendimento p {
+  padding: 3px 0;
+  font-family: Dosis;
+  color: #daa520;
+}
+
+.atendimento p i {
+  margin-right: 5px;
+  color: #daa520;
+}
+
+/* ----------------------- CSS DO FOOTER -------------------- */
+footer {
+  background-color: black;
+  color: #daa520;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #daa520; 
+}
+/* ----------------------- FIM CSS DO FOOTER -------------------- */

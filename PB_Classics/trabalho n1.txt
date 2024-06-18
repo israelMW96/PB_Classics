@@ -1,0 +1,23 @@
+Desenvolver uma página web para segmento de concessionárias de veículos, a página deverá conter:
+
+1. Página inicial;
+
+2. Lista de carros para venda;
+
+3. Cadastro de clientes;
+
+4. Cadastro de funcionários;
+
+5. Cadastro de empresas;
+
+6. Lista de carros vendidos nos mês:
+
+    6.1 Quantidade;
+
+    6.2 Clientes;
+
+    6.3 Cidades.
+
+Observação: Utilizar somente HTML e CSS.
+
+Data apresentação: 05/09.

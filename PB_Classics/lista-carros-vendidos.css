@@ -1,0 +1,127 @@
+body {
+  background: black;
+}
+
+header {
+  background: black;
+  padding: 20px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 10px 0;
+  margin: auto;
+}
+
+ul li {
+  display: inline;
+  flex: 1;
+  text-align: center;
+}
+
+.submenu {
+  position: relative;
+}
+
+.cabecalho .menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Dosis;
+  font-size: 15px;
+  color: #daa520;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 23%;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #daa520;
+  padding: 10px;
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.submenu-content li {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.submenu-content li a {
+  color: #daa520;
+  text-decoration: none;
+  font-family: Dosis;
+}
+
+.titulo-principal {
+  background-color: black;
+  color: #daa520;
+  font-family: Lobster;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+table {
+  width: 70%;
+  margin: 10px auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: #daa520;
+}
+
+thead tr th {
+  padding: 10px 0;
+  font-family: Lobster;
+  font-size: 22px;
+  color: black;
+}
+
+tr td {
+  padding: 10px;
+  font-family: Dosis;
+  font-size: 18px;
+  text-align: center;
+  color: #daa520;
+  border-bottom: 1px solid #daa520;
+}
+
+footer {
+  border-top: 1px solid #daa520;
+  background-color: black;
+  color: #daa520;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;    
+}

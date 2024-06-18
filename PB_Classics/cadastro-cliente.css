@@ -1,0 +1,144 @@
+header {
+  background: black;
+  padding: 20px 0;
+  border-bottom: 1px solid #daa520;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 10px 0;
+  margin: auto;
+}
+
+ul li {
+  display: inline;
+  flex: 1;
+  text-align: center;
+}
+
+.submenu {
+  position: relative;
+}
+
+.cabecalho .menu {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Dosis;
+  font-size: 15px;
+  color: #daa520;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 23%;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #daa520;
+  padding: 10px;
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.submenu-content li {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.submenu-content li a {
+  color: #daa520;
+  text-decoration: none;
+  font-family: Dosis;
+}
+
+.titulo-principal {
+  background-color: black;
+  color: #daa520;
+  font-family: Lobster;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px 0;
+}
+
+label {
+  padding-bottom: 5px;
+  font-family: Dosis;
+  color: #daa520;
+  width: 62%;
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 60%;
+  padding: 10px;
+  border: 1.5px solid #daa520;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  color: #daa520;
+  background: #222;
+}
+
+input[type="submit"] {
+  font-family: Lobster;
+  font-size: 18px;
+  background-color: #daa520;
+  color:black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid #daa520;
+  background-color: black;
+  color: #daa520;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;    
+}

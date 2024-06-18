@@ -1,0 +1,137 @@
+body {
+    background:#222;
+}
+
+header {
+    background: black;
+    padding: 20px 0;
+    border-bottom: 1px solid #daa520;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 10px 0;
+    margin: auto;
+}
+
+ ul li {
+    display: inline;
+    flex: 1;
+    text-align: center;
+}
+
+.submenu {
+    position: relative;
+}
+
+.cabecalho .menu {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Dosis;
+    font-size: 15px;
+    color: #daa520;
+}
+
+  .submenu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 23%;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #daa520;
+    padding: 10px;
+  }
+  
+  .submenu:hover .submenu-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+.submenu-content li {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.submenu-content li a{
+    color: #daa520;
+    text-decoration: none;
+    font-family: Dosis;
+}
+
+.principal .banner {
+    width: 100%;
+    border-bottom: 1px solid #daa520;
+}
+
+.principal h1 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: Lobster;
+    color: #daa520;
+    width: 450px;
+    text-align: center;
+}
+
+.atendimento {
+    display: flex;
+    background: black;
+    color: white;
+}
+
+.atendimento div {
+    flex: 1;
+    padding: 20px;
+}
+
+.atendimento h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Dosis;
+    color: #daa520;
+}
+
+.atendimento p {
+    padding: 3px 0;
+    font-family: Dosis;
+    color: #daa520;
+}
+
+.atendimento p i {
+    margin-right: 5px;
+    color: #daa520;
+}
+
+footer {
+    background-color: black;
+    color: #daa520;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #daa520;    
+}
